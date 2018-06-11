@@ -1,6 +1,6 @@
-### EtherScanDb JS Address Validation Package
+### EtherScamDb JS Address Validation Package
 
-This package will check EtherScanDb to get the status of an address to see if it's; blacklisted, whitelisted, neutral (unverified).
+This package will check [EtherScamDb](https://etherscamdb.info) to get the status of an address to see if it's; blacklisted, whitelisted, neutral (unverified).
 
 I've tried to make it as frictionless as possible for integration. So there's only 2 lines of code you need (other than requiring the package)
 
