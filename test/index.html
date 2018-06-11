@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test ESD Validation</title>
+    <script src="../dist/esd-min.js" type="text/javascript"></script>
+</head>
+<body>
+
+Send your ETH/Tokens to the following address:
+<input id="address" placeholder="0x0000000000000000000000000000000000000000" required/>
+
+<div id="esd-address-verify"></div>
+
+<br />
+0x0000000000000000000000000000000000000000 (not verified) <br />
+0xcee56c3d77d814d29b9410c0f74c12781fce03ff (blacklisted) <br />
+
+<script>
+    document.getElementById("address").addEventListener('keyup', EtherScamDbValidateAddress);
+</script>
+</body>
+</html>

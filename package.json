@@ -1,0 +1,30 @@
+{
+  "name": "etherscamdb-js-address-validation",
+  "version": "1.0",
+  "description": "A simple JS lib that will check EtherScamDB to see the status of an Ethereum address.",
+  "main": "dist/esd-min.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/409H/etherscamdb-js-address-validation.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "security",
+    "blacklist",
+    "whitelist"
+  ],
+  "author": "Harry Denley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/409H/etherscamdb-js-address-validation/issues"
+  },
+  "homepage": "https://github.com/409H/etherscamdb-js-address-validation#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "^3.0.0"
+  }
+}
