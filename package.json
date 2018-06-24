@@ -1,6 +1,6 @@
 {
   "name": "etherscamdb-js-address-validation",
-  "version": "1.0",
+  "version": "1.2.0",
   "description": "A simple JS lib that will check EtherScamDB to see the status of an Ethereum address.",
   "main": "dist/esd-min.js",
   "scripts": {
