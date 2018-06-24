@@ -16,9 +16,23 @@ Send your ETH/Tokens to the following address:
 
 <br />
 0x0000000000000000000000000000000000000000 (not verified) <br />
+0x0000000000000000000000000000000000000001 (not verified) <br />
+0x0000000000000000000000000000000000000002 (not verified) <br />
+
 0xcee56c3d77d814d29b9410c0f74c12781fce03ff (blacklisted) <br />
+0x11608c87d514d55e28eb94984bdbacd3fd38b182 (blacklisted) <br />
+0x257890939f7c0b758897f7bd49a590b7190043e0 (blacklisted) <br />
+
+0x4bbeEB066eD09B7AEd07bF39EEe0460DFa261520 (verified) <br />
+0x71c7656ec7ab88b098defb751b7401b5f6d8976f (verified) <br />
 
 <script>
+    var ESDVAConfig = {
+        "localstorage": {
+            "use": true,
+            "iden": "esdb-cache"
+        }
+    };
     document.getElementById("address").addEventListener('keyup', EtherScamDbValidateAddress);
 </script>
 </body>
